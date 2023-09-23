@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Henny+Penny&display=swap");
+
+html {
+  font-size: 20px;
+}
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-family: "Henny Penny", cursive;
+  font-size: 105px;
+  color: #fff;
+  margin: 0px;
+}
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: underline;
+}
+a:hover,
+a:active {
+  color: #ffb07f;
+  text-decoration: underline;
+}
+body {
+  font-family: "Abel", sans-serif;
+  background-color: #f3005f;
+  background-image: url("images/rush-background.jpg");
+  background-repeat: no-repeat;
+  color: #ffffff;
+  margin: 20px 0 0px 3.5%;
+}
+.small {
+  font-size: 0.65rem;
+  margin-bottom: -15px;
+}
+.discography {
+  width: 1250px;
+  height: 175px;
+  margin-top: 40px;
+  background-color: #b3005e;
+  border-radius: 25px;
+}
+.hero1,
+.hero2-1,
+.hero2-2,
+.hero2-3,
+.hero3-1,
+.hero3-2,
+.hero3-3,
+.hero3a,
+.hero4-1,
+.hero4-2,
+.hero4-3,
+.hero4a {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  vertical-align: baseline;
+}
+.hero1 {
+  grid-area: area1;
+}
+.hero2-1,
+.hero2-2,
+.hero2-3 {
+  grid-area: area2;
+}
+.hero2-2 {
+  animation: fade 30s infinite;
+  animation-delay: 10s;
+}
+.hero2-3 {
+  animation: fade 30s infinite;
+}
+.hero3-1,
+.hero3-2,
+.hero3-3,
+.hero3a {
+  grid-area: area3;
+}
+.hero3-2 {
+  animation: fade 30s infinite;
+  animation-delay: 16.7s;
+}
+.hero3-3 {
+  animation: fade 30s infinite;
+  animation-delay: 6.7s;
+}
+.hero3a {
+  animation: fadein 6s;
+  animation-delay: 9.5s;
+}
+.hero4-1,
+.hero4-2,
+.hero4-3,
+.hero4a {
+  grid-area: area4;
+}
+.hero4-2 {
+  animation: fade 30s infinite;
+  animation-delay: 13.3s;
+}
+.hero4-3 {
+  animation: fade 30s infinite;
+  animation-delay: 3.3s;
+}
+.hero4a {
+  animation: fadein 6s;
+}
+.header-grid {
+  display: grid;
+  grid-template-areas:
+    "area1 area1 area2 area2 area4 area4"
+    "area1 area1 area2 area2 area3 area3";
+  grid-gap: 5px;
+  width: 850px;
+}
+.album-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  vertical-align: middle;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  27% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.album-item {
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.album {
+  width: 130px;
+  margin: 0px;
+}
+.caption {
+  text-align: center;
+  font-size: 16px;
+  margin: 0px;
+}
+.footer1 {
+  width: 100%;
+  margin: 45px 0px 0px 0px;
+  height: 44px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.footer2 {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  background-color: #e90064;
+  height: 1px;
+}
+.footer3 {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  background-color: #726d6f;
+  height: 10px;
+}
+.footer4 {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  background-color: black;
+  height: 65px;
+}
+
+.font-size-135em {
+  font-size: 1.35em;
+}
+.copy {
+  min-width: 800px;
+  margin: 0 2em 0 0;
+}
