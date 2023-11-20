@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Abel&family=Henny+Penny&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Henny+Penny&display=swap');
 
 html {
   font-size: 20px;
@@ -8,7 +8,7 @@ header {
 }
 
 h1 {
-  font-family: "Henny Penny", cursive;
+  font-family: 'Henny Penny', cursive;
   font-size: 105px;
   color: #fff;
   margin: 0px;
@@ -24,12 +24,12 @@ a:active {
   text-decoration: underline;
 }
 body {
-  font-family: "Abel", sans-serif;
+  font-family: 'Abel', sans-serif;
   background-color: #f3005f;
-  background-image: url("images/rush-background.jpg");
+  background-image: url('images/rush-background.jpg');
   background-repeat: no-repeat;
   color: #ffffff;
-  margin: 20px 0 0px 3.5%;
+  margin: 0 0 0 3.5%;
 }
 .small {
   font-size: 0.65rem;
@@ -111,8 +111,8 @@ body {
 .header-grid {
   display: grid;
   grid-template-areas:
-    "area1 area1 area2 area2 area4 area4"
-    "area1 area1 area2 area2 area3 area3";
+    'area1 area1 area2 area2 area4 area4'
+    'area1 area1 area2 area2 area3 area3';
   grid-gap: 5px;
   width: 850px;
 }
