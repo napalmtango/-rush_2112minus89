@@ -4,13 +4,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rush-2112 minus 89</title>
-    <link rel="stylesheet" href="rush_2112minus89_style.css" />
+    <title>Refactoring Rush</title>
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/x-icon" href="rush-favicon.ico" />
   </head>
 
   <body>
-    <!--Header-->
+    <!--Header, consisting of band name as h1 element, and a bank of images: One static studio hero shot and a series of live performance images which cycle through crossfade animations   -->
     <header>
       <h1><span class="font-size-135em">R</span>ush</h1>
       <!--Crossfade images-->
@@ -20,6 +20,7 @@
           src="images/geddy-doubleneck295x225.png"
           alt="Geddy playing a doubleneck bass"
           height="202px"
+          width="300px"
         />
 
         <img
@@ -27,6 +28,7 @@
           src="images/geddy-alex2.png"
           alt="Geddy and Alex onstage"
           height="202px"
+          width="300px"
         />
 
         <img
@@ -34,12 +36,15 @@
           src="images/neil-live380x202.jpg"
           alt="Neil Peart performing live"
           height="202px"
+          width="300px"
         />
 
         <img
           class="hero3-1"
           src="images/rush-limo_275x90.png"
           alt="Rush in the backseat of a limosine"
+          height="90px"
+          width="275px"
         />
 
         <img
@@ -62,6 +67,8 @@
           class="hero3a"
           src="images/alex-geddy-moody_275x92.png"
           alt="Alex and Geddy on stage"
+          height="92px"
+          width="275px"
         />
 
         <img
@@ -69,6 +76,7 @@
           src="images/rushband_160x102.jpg"
           alt="Rush performing live"
           height="102px"
+          width="160px"
         />
 
         <img
@@ -76,6 +84,7 @@
           src="images/alex-geddy_160x102.jpg"
           alt="Alex and Geddy performing live"
           height="102px"
+          width="160px"
         />
 
         <img
@@ -83,12 +92,15 @@
           src="images/rushgroup_160x102.png"
           alt="Candid shot showing the band's silly side"
           height="102px"
+          width="160px"
         />
 
         <img
           class="hero4a"
           src="images/rush-alex-lifeson-geddy-lee-neil-peart-live-2013_160x102.png"
           alt="Alex and Geddy on stage"
+          height="102px"
+          width="160px"
         />
 
         <!-- Static hero image -->
@@ -96,11 +108,13 @@
           class="hero1"
           src="images/rush-300px.jpg"
           alt="Group portrait of Canadian heavy-progressive band Rush"
+          height="202px"
+          width="300px"
         />
       </div>
     </header>
 
-    <!--Content-->
+    <!--Textual content-->
     <main>
       <div class="copy">
         <p class="small">From Wikipedia, the free encyclopedia</p>
@@ -139,9 +153,9 @@
           <a
             href="https://www.rush.com/albums/a-farewell-to-kings/"
             target="_blank"
-            >Farewell to Kings (1977)</a
+            >Farewell to Kings</a
           >
-          and
+          (1977) and
           <a href="https://www.rush.com/albums/hemispheres/" target="_blank"
             >Hemispheres</a
           >
@@ -198,7 +212,7 @@
       </div>
     </main>
 
-    <!--Discography Gallery ** CHANGE TO FLEXBOX ** -->
+    <!--Discography Gallery  -->
     <div class="discography">
       <div class="album-grid">
         <div class="album-item">
@@ -292,7 +306,7 @@
 
     <!--Footer-->
     <footer>
-      <div class="footer1">
+      <div class="footer1 footer1-type">
         <p>
           <b>Neil Peart</b><br />
           September 12, 1952 - January 7, 2020

@@ -1,0 +1,43 @@
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: 'Abel', sans-serif;
+  background-color: var(--primary-bg-400);
+  background-image: url('../images/rush-background.jpg');
+  background-repeat: no-repeat;
+  color: var(--primary-clr);
+  margin: 0 0 0 3.5%;
+}
+
+main {
+  max-width: 1250px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+footer {
+  max-width: 1250px;
+}
+
+h1 {
+  color: var(--primary-clr);
+  font-family: 'Henny Penny', cursive;
+  font-size: 105px;
+  margin: 0px;
+}
+
+a:link,
+a:visited {
+  color: var(--primary-clr);
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  color: #ffb07f;
+  text-decoration: underline;
+}

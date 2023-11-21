@@ -1,0 +1,14 @@
+.header-grid {
+  display: grid;
+  grid-template-areas:
+    'area1 area1 area2 area2 area4 area4'
+    'area1 area1 area2 area2 area3 area3';
+  grid-gap: 5px;
+  width: 850px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  vertical-align: middle;
+}

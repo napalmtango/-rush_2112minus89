@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Henny+Penny&display=swap");
+.font-size-135em {
+  font-size: 1.35em;
+}
+
+.small {
+  font-size: 0.65rem;
+  margin-bottom: -15px;
+}
+
+.footer1-type {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.caption {
+  text-align: center;
+  font-size: 16px;
+  margin: 0px;
+}
+
+:root {
+  --primary-bg-300: #f06;
+  --primary-bg-400: #f06;
+  --primary-bg-500: #f06;
+  --primary-bg-700: darkred;
+  --secondary-bg-700: #b3005e;
+  --primary-clr: white;
+  --body-bg: hsl(0, 0%, 82%);
+}
+
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Abel", sans-serif;
+  background-color: var(--primary-bg-400);
+  background-image: url("../images/rush-background.jpg");
+  background-repeat: no-repeat;
+  color: var(--primary-clr);
+  margin: 0 0 0 3.5%;
+}
+
+main {
+  max-width: 1250px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+footer {
+  max-width: 1250px;
+}
+
+h1 {
+  color: var(--primary-clr);
+  font-family: "Henny Penny", cursive;
+  font-size: 105px;
+  margin: 0px;
+}
+
+a:link,
+a:visited {
+  color: var(--primary-clr);
+  text-decoration: underline;
+}
+
+a:hover,
+a:active {
+  color: #ffb07f;
+  text-decoration: underline;
+}
+
+.hero1,
+.hero2-1,
+.hero2-2,
+.hero2-3,
+.hero3-1,
+.hero3-2,
+.hero3-3,
+.hero3a,
+.hero4-1,
+.hero4-2,
+.hero4-3,
+.hero4a {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  vertical-align: baseline;
+}
+
+.hero1 {
+  grid-area: area1;
+}
+
+.hero2-1,
+.hero2-2,
+.hero2-3 {
+  grid-area: area2;
+}
+
+.hero2-2 {
+  animation: fade 30s infinite;
+  animation-delay: 10s;
+}
+
+.hero2-3 {
+  animation: fade 30s infinite;
+}
+
+.hero3-1,
+.hero3-2,
+.hero3-3,
+.hero3a {
+  grid-area: area3;
+}
+
+.hero3-2 {
+  animation: fade 30s infinite;
+  animation-delay: 16.7s;
+}
+
+.hero3-3 {
+  animation: fade 30s infinite;
+  animation-delay: 6.7s;
+}
+
+.hero3a {
+  animation: fadein 6s;
+  animation-delay: 9.5s;
+}
+
+.hero4-1,
+.hero4-2,
+.hero4-3,
+.hero4a {
+  grid-area: area4;
+}
+
+.hero4-2 {
+  animation: fade 30s infinite;
+  animation-delay: 13.3s;
+}
+
+.hero4-3 {
+  animation: fade 30s infinite;
+  animation-delay: 3.3s;
+}
+
+.hero4a {
+  animation: fadein 6s;
+}
+
+.album {
+  width: 130px;
+  margin: 0px;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  27% {
+    opacity: 1;
+  }
+  39% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 1;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.header-grid {
+  display: grid;
+  grid-template-areas: "area1 area1 area2 area2 area4 area4" "area1 area1 area2 area2 area3 area3";
+  grid-gap: 5px;
+  width: 850px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  vertical-align: middle;
+}
+
+.album-item {
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy {
+  min-width: 800px;
+  margin: 0 2em 0 0;
+}
+
+.discography {
+  width: 1250px;
+  height: 175px;
+  margin-top: 40px;
+  background-color: var(--secondary-bg-700);
+  border-radius: 25px;
+}
+
+.footer1 {
+  width: 100%;
+  margin: 45px 0px 0px 0px;
+  height: 44px;
+}/*# sourceMappingURL=style.css.map */

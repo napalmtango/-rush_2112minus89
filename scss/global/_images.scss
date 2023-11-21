@@ -1,0 +1,83 @@
+.hero1,
+.hero2-1,
+.hero2-2,
+.hero2-3,
+.hero3-1,
+.hero3-2,
+.hero3-3,
+.hero3a,
+.hero4-1,
+.hero4-2,
+.hero4-3,
+.hero4a {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  vertical-align: baseline;
+}
+
+.hero1 {
+  grid-area: area1;
+}
+
+.hero2-1,
+.hero2-2,
+.hero2-3 {
+  grid-area: area2;
+}
+
+.hero2-2 {
+  animation: fade 30s infinite;
+  animation-delay: 10s;
+}
+
+.hero2-3 {
+  animation: fade 30s infinite;
+}
+
+.hero3-1,
+.hero3-2,
+.hero3-3,
+.hero3a {
+  grid-area: area3;
+}
+
+.hero3-2 {
+  animation: fade 30s infinite;
+  animation-delay: 16.7s;
+}
+
+.hero3-3 {
+  animation: fade 30s infinite;
+  animation-delay: 6.7s;
+}
+
+.hero3a {
+  animation: fadein 6s;
+  animation-delay: 9.5s;
+}
+
+.hero4-1,
+.hero4-2,
+.hero4-3,
+.hero4a {
+  grid-area: area4;
+}
+
+.hero4-2 {
+  animation: fade 30s infinite;
+  animation-delay: 13.3s;
+}
+
+.hero4-3 {
+  animation: fade 30s infinite;
+  animation-delay: 3.3s;
+}
+
+.hero4a {
+  animation: fadein 6s;
+}
+
+.album {
+  width: 130px;
+  margin: 0px;
+}
