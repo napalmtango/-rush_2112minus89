@@ -1,0 +1,9 @@
+@forward 'test-root';
+@forward 'test-buttons';
+@forward 'test-alerts';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

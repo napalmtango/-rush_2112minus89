@@ -1,0 +1,55 @@
+:root {
+  --clr-primary: hsl(0, 100%, 27%);
+  --clr-primary-l: hsl(0, 100%, 33%);
+  --clr-secondary: hsl(16, 100%, 50%);
+  --clr-secondary-l: hsl(16, 100%, 58%);
+  --alert-bg: rgb(255, 221, 0);
+}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 0.35em 0.75em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  min-width: 8em;
+  font-family: inherit;
+  border-radius: 0;
+}
+
+.btn-pri {
+  background-color: var(--clr-primary);
+}
+.btn-pri:hover {
+  background-color: var(--clr-primary-l);
+  color: white;
+}
+
+.btn-sec {
+  background-color: var(--clr-secondary);
+}
+.btn-sec:hover {
+  background-color: var(--clr-secondary-l);
+  color: white;
+}
+
+.alert-jb-warning {
+  background-color: var(--alert-bg);
+  max-width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.alert-ikon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=test-style.css.map */

@@ -3,9 +3,9 @@
   font-size: 1.35em;
 }
 
-.small {
+.small-caption {
   font-size: 0.65rem;
-  margin-bottom: -15px;
+  margin-bottom: -0.1em;
 }
 
 .footer1-type {
@@ -24,9 +24,10 @@
   --primary-bg-400: #f06;
   --primary-bg-500: #f06;
   --primary-bg-700: darkred;
-  --secondary-bg-700: #b3005e;
+  --secondary-bg-700: hsl(328, 100%, 35%);
   --primary-clr: white;
   --body-bg: hsl(0, 0%, 82%);
+  --alert-bg: hsl(52, 100%, 50%);
 }
 
 html {
@@ -71,6 +72,11 @@ a:hover,
 a:active {
   color: #ffb07f;
   text-decoration: underline;
+}
+
+p {
+  margin: 0 0 0.5em;
+  line-height: 1.5;
 }
 
 .hero1,
@@ -206,6 +212,14 @@ a:active {
   justify-content: center;
 }
 
+#liveAlertPlaceholder {
+  position: absolute;
+  top: 2em;
+  margin: 0 auto;
+  z-index: 100;
+  color: black;
+}
+
 .copy {
   min-width: 800px;
   margin: 0 2em 0 0;
@@ -223,4 +237,17 @@ a:active {
   width: 100%;
   margin: 45px 0px 0px 0px;
   height: 44px;
+}
+
+.alert-jb-warning {
+  background-color: var(--alert-bg);
+  max-width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.alert-ikon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */

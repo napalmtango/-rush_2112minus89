@@ -1,0 +1,12 @@
+.alert-jb-warning {
+  background-color: var(--alert-bg);
+  max-width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.alert-ikon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}/*# sourceMappingURL=index.css.map */
